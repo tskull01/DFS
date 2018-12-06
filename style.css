@@ -1,0 +1,137 @@
+h1, h2,h3{
+    color:#8B1509;
+}
+body{
+    font-family:'Ubuntu', sans-serif;
+}
+.container-A h1,h2,h3{
+    color:#8B1509;
+
+}
+.container-A{
+    padding-top:0.5%;
+    padding-bottom: 5%;
+    text-align:center;
+    color: black;
+    z-index:1;
+}
+.container-A::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    opacity: .1;
+    z-index: -1;
+    background: url("images/background.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.container-A nav ul li{
+    display: inline-block;
+    list-style-type: none;
+    width: 11%;
+    padding: 1%
+}
+.container-A nav ul{
+    border-style:solid;
+    border-width: 0 0 1px 0;
+    border-color:lightgrey;
+    margin-right: 7%;
+    margin-left: 7%;
+}
+.container-A nav ul li a{
+    text-decoration: none;
+    color:black;
+
+}
+.container-A nav ul li a:hover{
+    color:grey;
+    cursor:pointer;
+}
+.container-A h2{
+    padding-top: 7%;
+}
+.container-A h2 a:link{
+    color:black;
+    text-decoration:none;
+}
+.container-A h1{
+    padding-top:8%;
+
+}
+
+.container-B{
+    background-color: white;
+    padding-top:5%;
+    padding-bottom:7%;
+    padding-left:15%;
+    padding-right:15%;
+    text-align:center;
+    z-index: 1;
+}
+.container-B h5{
+    line-height:170%;
+}
+.container-C{
+    padding-left:7%;
+    padding-right:0;
+}
+footer{
+    background-color:rgba(139,136,133,0.4);
+    padding-top:2%;
+    padding-bottom:2%;
+    color:white;
+    padding-left:4%;
+}
+.pad {
+    padding-top: 7%;
+}
+.contact{
+    padding-bottom:3%;
+    border-bottom: 1px solid grey;
+    margin-right:60%;
+}
+.xpad{
+    padding-top:15%;
+}
+.about{
+    border-bottom: 1px solid lightgrey;
+    margin-right:30%;
+    margin-left: 30%;
+    padding-bottom: 2%;
+}
+.container-C a{
+    color:black;
+    text-decoration:none;
+}
+.container-C a:visited{
+    color:black;
+    text-decoration:none;
+}
+.container-DV{
+    background:lightgrey;
+    padding-top:5%;
+    padding-bottom:5%;
+    padding-left:15%;
+    padding-right:15%;
+}
+.container-DV h4{
+    line-height:150%;
+}
+.saImage{
+    
+    padding:1%; 
+}
+.container-SA{
+    background:lightgrey;
+    padding-top:1%;
+    padding-bottom:5%;
+    padding-left:15%;
+    padding-right:15%;
+}
+.container-SA h4{
+    line-height:150%;
+}
